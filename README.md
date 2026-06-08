@@ -4,5 +4,5 @@ Integrantes do grupo:
 
 Brunno Santana de Almeida. 
 Gabriel Nascimento de Araujo. 
-Jonathan de Souza Gois.     
+Jonathan de Souza Gois. 
 Pedro Rodrigues Ferreira. 
