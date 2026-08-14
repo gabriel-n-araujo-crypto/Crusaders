@@ -3,6 +3,6 @@ Repositório do grupo Crusaders (FATEC Barueri) para armazenar o As - Is, To - B
 Integrantes do grupo:
 
 Brunno Santana de Almeida, Gabriel Nascimento de Araujo, 
-Jonathan de Souza Gois, Paulo Henrique Almeida Florencio
+Jonathan de Souza Gois, Paulo Henrique Almeida Florencio,
 Pedro Rodrigues Ferreira e 
-Yan
+Yan Alexandre Faria
