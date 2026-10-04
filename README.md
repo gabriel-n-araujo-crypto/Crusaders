@@ -1,8 +1,5 @@
-Repositório do grupo Crusaders (FATEC Barueri) para armazenar o As - Is, To - Be e a Documentação do nosso projeto referente a disciplina de Projeto Interdisciplinar 
+# 🔧 Sistema Web de Gestão e Agendamento Inteligente para Oficinas Mecânicas
 
-Integrantes do grupo:
+## 📌 Sobre o Projeto
 
-Brunno Santana de Almeida, Gabriel Nascimento de Araujo, 
-Jonathan de Souza Gois, Paulo Henrique Almeida Florencio,
-Pedro Rodrigues Ferreira e 
-Yan Alexandre Faria
+O projeto consiste no desenvolvimento de um **sistema web de gestão simples e agendamento para oficinas mecânicas**, tendo como referência a oficina BF CAR, especializada na prestação de serviços de manutenção automotiva em veículos leves.
