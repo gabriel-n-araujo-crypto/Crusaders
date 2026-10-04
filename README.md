@@ -2,7 +2,7 @@
 
 ## 📌 Sobre o Projeto
 
-O projeto consiste no desenvolvimento de um **sistema web de gestão e agendamento inteligente para oficinas mecânicas**, tendo como referência a oficina BF CAR, especializada na prestação de serviços de manutenção automotiva em veículos leves.
+O projeto consiste no desenvolvimento de um **sistema web de gestão e agendamento para oficinas mecânicas**, tendo como referência a oficina BF CAR, especializada na prestação de serviços de manutenção automotiva em veículos leves.
 
 A proposta surgiu a partir da identificação de necessidades relacionadas à organização dos agendamentos, ao controle de entrada e saída de veículos, ao acompanhamento dos atendimentos e à comunicação entre a oficina e seus clientes.
 
