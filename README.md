@@ -1,8 +1,8 @@
-# 🔧 Sistema  de Gestão e Agendamento Inteligente para Oficinas Mecânicas
+# 🔧 Sistema de Agendamentopara Oficina Mecânica
 
 ## 📌 Sobre o Projeto
 
-O projeto consiste no desenvolvimento de um **sistema  de gestão e agendamento para oficinas mecânicas**, tendo como referência a oficina BF CAR, especializada na prestação de serviços de manutenção automotiva em veículos leves.
+O projeto consiste no desenvolvimento de um **sistema de agendamento para oficina mecânica**, tendo como referência a oficina BF CAR, especializada na prestação de serviços de manutenção automotiva em veículos leves.
 
 A proposta surgiu a partir da identificação de necessidades relacionadas à organização dos agendamentos, ao controle de entrada e saída de veículos, ao acompanhamento dos atendimentos e à comunicação entre a oficina e seus clientes.
 
@@ -22,7 +22,7 @@ Diante dessas necessidades, identificou-se a oportunidade de desenvolver uma sol
 
 ## 🚀 Objetivo Geral
 
-Desenvolver um sistema web para auxiliar na gestão e no agendamento de serviços de uma oficina mecânica, centralizando informações de clientes, veículos e atendimentos, além de incorporar recursos de automação e funcionalidades inteligentes para melhorar a organização dos processos e a comunicação com os clientes.
+Desenvolver um sistema (site) para auxiliar na gestão e no agendamento de serviços de uma oficina mecânica, centralizando informações de clientes, veículos e atendimentos, além de incorporar recursos de automação e funcionalidades inteligentes para melhorar a organização dos processos e a comunicação com os clientes.
 
 ## ⚙️ Funcionalidades Previstas
 
@@ -38,9 +38,11 @@ Disponibilizar uma funcionalidade para criação de agendamentos, permitindo con
 
 ### 🚗 3. Controle da Capacidade Diária
 
-Implementar um mecanismo de controle da quantidade de veículos agendados para cada dia, respeitando o limite operacional definido pela oficina, que atualmente trabalha com uma capacidade de até 10 veículos agendados por dia.
+Implementar um mecanismo de controle da quantidade de veículos que podem permanecer simultaneamente na oficina, respeitando o limite operacional de até 10 veículos.
 
-O sistema deverá considerar os agendamentos existentes e impedir novas reservas quando o limite diário for atingido, além de atualizar a disponibilidade quando um agendamento for cancelado ou alterado.
+O sistema deverá considerar os veículos que estão atualmente na oficina, permitindo novos agendamentos conforme a disponibilidade de vagas. Quando um veículo tiver seu atendimento finalizado e deixar a oficina, a vaga correspondente poderá ser disponibilizada para outro agendamento.
+
+Dessa forma, o controle da capacidade será baseado na quantidade de veículos presentes simultaneamente na oficina, e não em um limite fixo de agendamentos por dia.
 
 ### 🔑 4. Controle de Entrada e Saída de Veículos
 
@@ -52,9 +54,11 @@ Disponibilizar informações sobre o andamento dos atendimentos, permitindo que 
 
 ### 🛠️ 6. Triagem Híbrida de Problemas
 
-Implementar um módulo de triagem que combine informações fornecidas pelos clientes com a avaliação realizada pelos profissionais da oficina.
+Implementar um módulo de triagem que permita ao mecânico realizar uma avaliação inicial do veículo, combinando as informações relatadas pelo cliente com sua própria análise técnica.
 
-A proposta é permitir o registro dos problemas relatados pelo cliente e complementar essas informações com a análise técnica dos responsáveis pelo atendimento, contribuindo para uma identificação mais organizada das necessidades de manutenção do veículo.
+Inicialmente, o cliente poderá informar os problemas percebidos no veículo. Em seguida, o mecânico utilizará essas informações como referência e realizará a avaliação complementar, registrando suas observações e identificando melhor as necessidades de manutenção.
+
+Dessa forma, a triagem será conduzida pelo próprio mecânico, com o auxílio das informações fornecidas pelo cliente e dos recursos disponibilizados pelo sistema.
 
 ### 💬 7. Comunicação Automatizada com Clientes
 
@@ -78,7 +82,7 @@ Entre os perfis considerados estão:
 
 * **Cliente:** poderá acessar as funcionalidades disponibilizadas para consulta de informações próprias, veículos e agendamentos.
 * **Funcionário:** poderá utilizar as funcionalidades relacionadas às atividades operacionais da oficina, conforme suas permissões.
-* **Administrador/Gerente:** poderá acessar funcionalidades administrativas e de gerenciamento do sistema, respeitando as permissões definidas.
+* **Administrativo/Gerente:** poderá acessar funcionalidades administrativas e de gerenciamento do sistema, respeitando as permissões definidas.
 
 As permissões específicas de cada perfil serão estabelecidas durante a definição dos requisitos do sistema.
 
